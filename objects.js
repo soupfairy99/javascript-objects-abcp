@@ -8,12 +8,11 @@ var playlist = {
     return playlist
   }
   
- updatePlaylist(playlist,"Phil Ochs","Here's to the State of Mississippi") return playlist
- 
+ updatePlaylist(playlist,"Phil Ochs","Here's to the State of Mississippi")
 
-  }
-  
   function removeFromPlaylist(playlist,artistName){delete playlist.Slowdive; return playlist}
+  
+  removeFromPlaylist(playlist,"Slowdive")
     
 /*function updatePlaylist(playlist,artist,song) {playlist.assign({'Alison':'Slowdive'},{'Sometimes':'My Bloody Valentine'})return updateplay
 
