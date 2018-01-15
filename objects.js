@@ -12,7 +12,8 @@ var playlist = {
  
 
   }
-  function removeFromPlaylist(playlist,artistName){delete["Slowdive"]; return removeFromPlaylist}
+  
+  function removeFromPlaylist(playlist,artistName){delete playlist.Slowdive; return playlist}
     
 /*function updatePlaylist(playlist,artist,song) {playlist.assign({'Alison':'Slowdive'},{'Sometimes':'My Bloody Valentine'})return updateplay
 
